@@ -1,0 +1,26 @@
+{
+    "classes": [
+        "non-person",
+        "person"
+    ],
+    "mode": "classification",
+    "inferenceMode": "classification",
+    "printHWInfo": false,
+    "inputShapeString": "(96, 96, 3)",
+    "yType": "npy",
+    "trainTestSplit": 0.2,
+    "stratifiedTrainTest": false,
+    "convertInt8": false,
+    "profileInt8": true,
+    "skipEmbeddingsAndMemory": false,
+    "objectDetectionAugmentation": true,
+    "syntiantTarget": false,
+    "maxTrainingTimeSeconds": 28800,
+    "isEnterpriseProject": true,
+    "flattenDataset": false,
+    "akidaModel": true,
+    "akidaEdgeModel": false,
+    "skipMemoryProfiling": false,
+    "tensorboardLogging": false,
+    "customValidationSplit": false
+}
